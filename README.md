@@ -81,7 +81,7 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
 - Antenna Checks: Magic
 - Circuit Validity Checker: CVC
 
-The main goal of OpenLane was to create an open-source RTL to GDSII platform that generates a GDSII file without requiring human intervention.
+The main goal of OpenLane was to create an open-source RTL to GDSII platform that generates a GDSII file without requiring human intervention. We can run OpenLane flow in **interactive mode** too using **"-interactive"** option.
 
 
 
