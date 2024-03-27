@@ -65,13 +65,24 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
 
 ## OpenLane:
 
-**OpenLane** is more than just a tool; it's an open-source ASIC design flow. OpenLane was a collaborative effort of many open-source chip design advocates, including Efabless, Google, and Skywater.OpenLane uses SkyWater's 130nm Process Design Kit (PDK) and incorporates many open-source Electronic Design Automation (EDA) tools. Some of the EDA tools used in OpenLane include:
-- Yosys for RTL synthesis
-- OpenROAD for automated placement and routing
-- OpenSTA for timing analysis
-- Magic VLSI for physical verification
+**OpenLane** uses SkyWater's 130nm Process Design Kit (PDK) and incorporates many open-source Electronic Design Automation (EDA) tools for each of the anove mentioned flow steps. Some of the EDA tools used in OpenLane include:
+
+- RTL Synthesis, Technology Mapping, and Formal Verification: Yosys + ABC
+- Static Timing Analysis: OpenSTA
+- Floor Planning: init_fp, ioPlacer, pdn, and tapcell
+- Placement: RePLace (Global), Resizer, OpenPhySyn (formerly), OpenDP (Detailed)
+- Clock Tree Synthesis: TritonCTS
+- Fill Insertion: OpenDP/filler_placement
+- Routing: FastRoute or CU-GR (formerly), TritonRoute (Detailed) or DR-CU
+- SPEF Extraction: OpenRCX or SPEF-Extractor (formerly)
+- GDSII Streaming out: Magic and KLayout
+- DRC Checks: Magic and KLayout
+- LVS check: Netgen
+- Antenna Checks: Magic
+- Circuit Validity Checker: CVC
 
 The main goal of OpenLane was to create an open-source RTL to GDSII platform that generates a GDSII file without requiring human intervention.
+
 
 
 
