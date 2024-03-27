@@ -60,6 +60,6 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
    - Once validated, the ASIC is ready for mass production.
    - Deploy the ASIC in the target application or market.
 
-(https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/blob/main/Images_Used/Design%20Flow.png)
+![Design Flow](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/a3ba69f3-3d2a-4653-af35-ee4543156f2f)
 
 
