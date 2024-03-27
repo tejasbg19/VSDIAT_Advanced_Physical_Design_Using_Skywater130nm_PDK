@@ -60,3 +60,6 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
    - Once validated, the ASIC is ready for mass production.
    - Deploy the ASIC in the target application or market.
 
+
+
+
