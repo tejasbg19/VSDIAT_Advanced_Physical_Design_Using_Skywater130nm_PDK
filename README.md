@@ -51,7 +51,7 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
 6. **Physical Verification**:
    - Perform Design Rule Checking (DRC) and Layout vs. Schematic (LVS) checks to ensure layout correctness and adherence to manufacturing rules.
    - Address any violations found during physical verification.
-
+   - GDS II file will be forwarded to foundry.
 7. **Post-Silicon Validation**:
    - Fabricate the ASIC using semiconductor manufacturing processes.
    - Test and validate the fabricated ASIC to ensure functionality and performance meet specifications.
