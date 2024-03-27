@@ -22,7 +22,8 @@ This repo is about my journey through VSDIAT Advanced Physical Design course usi
 ## ASIC Design Flow
 
 The ASIC design flow outlines the process of designing and fabricating an Application-Specific Integrated Circuit. The flow can be boardly be clasified into **Front End** & **Back End**:<br>
-The Front End involes:
+
+**Front End** involes the following steps:
 
 1. **Specification and Architecture Definition**:
    - Define the requirements and functionality of the ASIC.
@@ -32,9 +33,10 @@ The Front End involes:
    - Write Register Transfer Level (RTL) code using hardware description languages like Verilog or VHDL.
    - Simulate the RTL design to verify functionality and performance using tools like ModelSim or VCS.
 
-3. **Synthesis**:
+3. **Synthesis & Gate Level Netlist**:
    - Convert the RTL code into a gate-level netlist using synthesis tools such as Synopsys Design Compiler or Cadence Genus.
    - Optimize the netlist for area, power, and timing constraints.
+**Back End** involves the following steps:
 
 4. **Static Timing Analysis (STA)**:
    - Perform STA to ensure that timing requirements are met and that there are no violations.
