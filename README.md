@@ -23,7 +23,7 @@ This repo is about my journey through VSDIAT Advanced Physical Design course usi
 
 The ASIC design flow outlines the process of designing and fabricating an Application-Specific Integrated Circuit. The flow can be boardly be clasified into **Front End** & **Back End**:<br>
 
-**Front End** involes the following steps:
+***Front End** involes the following steps:
 
 1. **Specification and Architecture Definition**:
    - Define the requirements and functionality of the ASIC.
