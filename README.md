@@ -36,6 +36,8 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
 3. **Synthesis & Gate Level Netlist**:
    - Convert the RTL code into a gate-level netlist using synthesis tools such as Synopsys Design Compiler or Cadence Genus.
    - Optimize the netlist for area, power, and timing constraints.<br>
+
+
 **Back End** involves the following steps:
 
 4. **Static Timing Analysis (STA)**:
