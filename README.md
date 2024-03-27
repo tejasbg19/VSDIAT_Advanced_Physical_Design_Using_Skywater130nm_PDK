@@ -19,22 +19,10 @@ This repo is about my journey through VSDIAT Advanced Physical Design course usi
    - While not strictly ASICs, Field-Programmable Gate Arrays (FPGAs) offer reconfigurable logic.
    - Can be programmed to perform specific functions, providing flexibility similar to ASICs but with less performance optimization.
 
-## Advantages of ASICs
-
-1. **Performance**:
-   - ASICs can offer high-speed operation and low latency due to their specialized design.
-
-2. **Power Efficiency**:
-   - ASICs are often designed to minimize power consumption, making them suitable for battery-powered devices.
-
-3. **Size**:
-   - ASICs can be designed to be compact, which is important for space-constrained applications.
-
-4. **Cost**:
-   - While ASIC development can be expensive upfront, it can lead to cost savings in mass production due to optimized designs and lower component count.
 ## ASIC Design Flow
 
-The ASIC design flow outlines the process of designing and fabricating an Application-Specific Integrated Circuit. Below are the key steps involved in the ASIC design flow:
+The ASIC design flow outlines the process of designing and fabricating an Application-Specific Integrated Circuit. The flow can be boardly be clasified into **Front End** & **Back End**:
+The Front End involes:
 
 1. **Specification and Architecture Definition**:
    - Define the requirements and functionality of the ASIC.
