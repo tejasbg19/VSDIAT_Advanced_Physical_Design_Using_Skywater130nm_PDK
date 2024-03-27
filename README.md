@@ -83,6 +83,11 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
 
 The main goal of OpenLane was to create an open-source RTL to GDSII platform that generates a GDSII file without requiring human intervention. We can run OpenLane flow in **interactive mode** too using **"-interactive"** option. OpenLane design flow is described by the below image.
 
+![OpenLane Design Flow](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/2fc18871-5344-46de-afba-50dbf99a148a)
+
+Source: [https://openlane.readthedocs.io/en/latest/flow_overview.html](https://openlane.readthedocs.io/en/latest/flow_overview.html)
+
+
 
 
 
