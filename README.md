@@ -63,7 +63,7 @@ The ASIC design flow outlines the process of designing and fabricating an Applic
 ![Design Flow](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/a3ba69f3-3d2a-4653-af35-ee4543156f2f)
 
 
-##OpenLane:
+## OpenLane:
 
 **OpenLane** is more than just a tool; it's an open-source ASIC design flow. OpenLane was a collaborative effort of many open-source chip design advocates, including Efabless, Google, and Skywater.OpenLane uses SkyWater's 130nm Process Design Kit (PDK) and incorporates many open-source Electronic Design Automation (EDA) tools. Some of the EDA tools used in OpenLane include:
 - Yosys for RTL synthesis
