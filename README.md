@@ -187,4 +187,6 @@ therefore, flop ratio = 1613/14876 = 0.108429<br>
 therefore, the flop percent = 10.84 %<br>
 
 
+<br>
+After synthesis we initiate floor planing using `run_floorplan`
 
