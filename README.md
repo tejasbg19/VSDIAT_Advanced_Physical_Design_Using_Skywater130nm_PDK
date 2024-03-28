@@ -115,7 +115,9 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
 ![Screenshot 3_28_2024 10_47_16 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/f12a72e3-d2bb-4f92-a0a1-7d92d8d50185)
 
 
-
+3. Whatever work we will be doing, it will be in the openlane directory, to open it follow the below steps in terminal,
+   ```bash
+   
    
 
 
