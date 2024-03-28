@@ -246,4 +246,5 @@ We can visualize the placement in Magic using the following in terminal in `plac
 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 6_34_41 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/863ed786-215e-4195-9c17-93c702dc2a5d)
 
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 6_35_00 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d55fc273-2c5d-435a-90e5-33d179b2ee45)
 
