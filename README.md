@@ -160,9 +160,15 @@ prep -design picorv32a
 
 
 
+
+
+
+
+
+
+
+
 If we list out the contents of picorv32a directory now we will see the new files created,
 
-
-[VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK_README md at main · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_28_2024 12_21_12 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/8ffcedef-e5ec-466c-9c96-5870ba27d413)
 
 
