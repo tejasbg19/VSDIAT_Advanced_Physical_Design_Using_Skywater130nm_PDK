@@ -150,11 +150,15 @@ When we open the picorv32a directory in the terminal under the designs directory
 - `sky130A_sky130_fd_sc_hd_config.tcl`
 - `config.tcl`
 
-The order of timing and design parameters is as follows: `sky130A_sky130_fd_sc_hd_config.tcl` > `config.tcl` > OpenLane default values.
+The order of timing and design parameters is as follows: `sky130A_sky130_fd_sc_hd_config.tcl` > `config.tcl` > `OpenLane default values`.
 
 After opening OpenLane in interactive mode as shown above, we will begin the flow by creating various files needed using the command:
 
 ```bash
 package require openlane 0.9
 prep -design picorv32a
+
+
+If we list out the contents of picorv32a directory now we will see the new files created,
+
 
