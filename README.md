@@ -230,7 +230,7 @@ zommed view of the die (select the section you want to zoom by placing cursor on
 ![VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK_README md at main · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_28_2024 5_30_04 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/6c28cdb6-2fef-4c8f-bf90-ab68f0d6e225)
 After floor planning, we initiate placement using the following command in OpenLane:
 
-      ```bash
+      
       run_placement
  
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 6_34_10 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/5f9bf537-ad15-4b11-be5c-3cbf4732be53)
