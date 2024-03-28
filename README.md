@@ -236,8 +236,7 @@ After floor planning, we initiate placement using the following command in OpenL
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 6_34_10 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/5f9bf537-ad15-4b11-be5c-3cbf4732be53)
 
 We can visualize the placement in Magic using the following in terminal in `placement` directory of `result` directory:
-      
-
+         magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 
 
 
