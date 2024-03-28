@@ -158,6 +158,6 @@ prep -design picorv32a
 
 
 This will create a new directory named runs in picorv32a directory.
-
+g
 
 
