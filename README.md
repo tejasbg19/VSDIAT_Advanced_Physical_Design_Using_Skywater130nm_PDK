@@ -94,8 +94,8 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
 1. Navigate to the work folder on your desktop using the `cd` command:
    ```bash
    cd Desktop/work
-cd subfolder1
-ls -ltr
+   cd tools
+   ls -ltr
 
 
 
