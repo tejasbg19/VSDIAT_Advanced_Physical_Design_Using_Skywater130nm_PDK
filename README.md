@@ -166,9 +166,16 @@ If we open the runs directory, we will find various new directories like `result
 ![Captures 3_28_2024 12_34_25 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/bdc64ed1-d47e-4acf-bc06-3239e8743b0a)
 
 
-After preperation is completed we run synthesis using the command <br><br>
+After preperation is completed we run synthesis using the command <br>
 `run_synthesis`
 <br>
 openlane will run synthesis as well as Static Timing Analysis (STA) under the above command itself. After completion of the synthesis we will get a report as shown below.
 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 12_49_19 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/9e57ba65-928a-43e6-bfcd-955d481f05e1)
+
+
+
+**Flop Ratio:** It is the ratio of total number of D Flip-Flops to the total number of cells in a design.
+Flop Ratio = (Number of D Flip-Flops) / (Total Number of Cells)
+
+
