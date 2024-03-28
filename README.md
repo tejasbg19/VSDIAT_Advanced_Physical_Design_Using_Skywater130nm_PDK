@@ -193,3 +193,7 @@ After synthesis, we initiate floor planning using:
 ```bash
 run_floorplan
 
+
+
+![Captures 3_28_2024 4_28_11 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/2a842f62-a80f-4b13-b678-e730a8b44299)
+
