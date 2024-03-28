@@ -99,7 +99,6 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
    cd work/
    cd tools/
    ls -ltr
-
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 10_31_20 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/572ba914-887d-4984-b2c5-a4393cd72091)
 
 
@@ -113,7 +112,6 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
    cd openlane_working_dir/
    cd pdks/
    ls -ltr
-
 ![Screenshot 3_28_2024 10_47_16 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/f12a72e3-d2bb-4f92-a0a1-7d92d8d50185)
 
 
@@ -126,7 +124,6 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
    cd tools/
    cd openlane_working_dir/
    cd openlane/
-
 ![Captures 3_28_2024 10_58_25 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/bec472e7-0a47-4fe3-bd8f-4e38b2a66915)
 
    
@@ -137,8 +134,6 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
    docker
    pwd
    ./flow.tcl -interactive
-
-
-
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 11_40_27 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/7bd8b59c-0a52-4cb7-9ca9-722eaf173601)
 
 
