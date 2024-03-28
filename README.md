@@ -248,3 +248,7 @@ We can visualize the placement in Magic using the following in terminal in `plac
 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 6_35_00 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d55fc273-2c5d-435a-90e5-33d179b2ee45)
 
+
+Zoomed view of the placement with `power(Vdd & Vss) mesh` clrealy visible as well as `standard cells` placed in `standard cell row`.
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 6_59_26 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/5576a078-442c-405a-81bd-326c2320ba98)
+
