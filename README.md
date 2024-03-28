@@ -197,3 +197,5 @@ After synthesis, we initiate floor planning using:<br>
 ### Task-2:
 **Die Area:**
 ![VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK_README md at main · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_28_2024 4_40_06 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/9ebe5c96-36fb-4f31-ba1a-f610de7fb3f4)
+
+Area of die in micrometer = (660685*671405)*10^(12) = 443587.21um
