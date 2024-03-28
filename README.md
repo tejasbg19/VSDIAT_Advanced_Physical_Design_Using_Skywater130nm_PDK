@@ -156,7 +156,7 @@ After opening OpenLane in interactive mode as shown above, we will begin the flo
   ```bash
     package require openlane 0.9
     prep -design picorv32a
-
+<br>
 If we list out the contents of picorv32a directory now we will see the new directory named runs created,
 ![Captures 3_28_2024 12_30_39 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/0f34c256-4248-498e-9ba8-08e0e5a431e9)
 
