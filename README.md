@@ -158,9 +158,12 @@ After opening OpenLane in interactive mode as shown above, we will begin the flo
      package require openlane 0.9
      prep -design picorv32a
 
-If we list out the contents of picorv32a directory now we will see the new files created,
-
+If we list out the contents of picorv32a directory now we will see the new directory named runs created,
 ![Captures 3_28_2024 12_30_39 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/0f34c256-4248-498e-9ba8-08e0e5a431e9)
 
+
+
+If we open the runs directory, we will find various new directories like `results`,`reports`logs`,`temp` created to store the various outputs of the design flow.
+![Captures 3_28_2024 12_34_25 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/bdc64ed1-d47e-4acf-bc06-3239e8743b0a)
 
 
