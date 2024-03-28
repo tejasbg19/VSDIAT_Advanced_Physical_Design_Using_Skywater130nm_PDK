@@ -87,6 +87,15 @@ The main goal of OpenLane was to create an open-source RTL to GDSII platform tha
 ![OpenLane Design Flow](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/2fc18871-5344-46de-afba-50dbf99a148a)<br>
 Source: [https://openlane.readthedocs.io/en/latest/flow_overview.html](https://openlane.readthedocs.io/en/latest/flow_overview.html)
 
+## Getting Started
+
+To list the tools and PDKs we will be using, follow these steps in your terminal:
+
+1. Navigate to the work folder on your desktop using the `cd` command:
+   ```bash
+   cd Desktop/work
+cd subfolder1
+ls -ltr
 
 
 
