@@ -177,6 +177,8 @@ openlane will run synthesis as well as Static Timing Analysis (STA) under the ab
 ### Task-1:
 **Flop Ratio:** It is the ratio of total number of D flip-flops to the total number of cells in a design.<br>
 flop ratio = number of D flip-flop ÷ total number of cells<br>
+<br>
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 1_17_45 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d2ab6c29-c54d-4449-aed8-ce9c6c1a1896)
 Total number of D flip-flop in the design = 1613 <br>
 Total number of cells in the design = 14876<br>
 therefore, flop ratio = 1613/14876 = 0.108429<br>
