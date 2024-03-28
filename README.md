@@ -130,7 +130,15 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
 ![Captures 3_28_2024 10_58_25 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/bec472e7-0a47-4fe3-bd8f-4e38b2a66915)
 
    
-   
+
+
+4. To run OpenLane in interactive mode follow the following steps after opening the openlane directory as shown in above image:
+   ```bash
+   docker
+   pwd
+   ./flow.tcl -interactive
+
+
 
 
 
