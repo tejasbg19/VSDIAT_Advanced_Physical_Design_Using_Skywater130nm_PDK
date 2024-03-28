@@ -188,7 +188,8 @@ therefore, the flop percent = 10.84 %<br>
 
 
 <br>
-After synthesis we initiate floor planing using 
+After synthesis, we initiate floor planning using:
+
 ```bash
 run_floorplan
 
