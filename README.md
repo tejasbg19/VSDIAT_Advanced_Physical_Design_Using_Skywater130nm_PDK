@@ -208,7 +208,7 @@ Area of die in micrometer = (660685*671405)*10^(12) = 443587.21um
 Open floor plan result & then pass the result to magic using below commands:
 3. Whatever work we will be doing, it will be in the openlane directory, to open it follow the below steps in terminal,
   
-      ```cd Desktop/
+    ```bash cd Desktop/
          cd work/
          cd tools/
          cd openlane_working_dir/
