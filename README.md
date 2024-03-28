@@ -87,6 +87,9 @@ The main goal of OpenLane was to create an open-source RTL to GDSII platform tha
 ![OpenLane Design Flow](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/2fc18871-5344-46de-afba-50dbf99a148a)<br>
 Source: [https://openlane.readthedocs.io/en/latest/flow_overview.html](https://openlane.readthedocs.io/en/latest/flow_overview.html)
 
+
+
+
 ## Getting Started
 
 To list the tools and PDKs we will be using, follow these steps in your terminal:
@@ -135,5 +138,10 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
    pwd
    ./flow.tcl -interactive
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 11_40_27 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/7bd8b59c-0a52-4cb7-9ca9-722eaf173601)
+
+
+
+## Retracing the design flow of Picorv32a:
+
 
 
