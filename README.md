@@ -98,6 +98,7 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
    ls -ltr
 
 
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 10_31_20 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/572ba914-887d-4984-b2c5-a4393cd72091)
 
 
 
