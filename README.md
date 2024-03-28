@@ -186,9 +186,8 @@ Total number of cells in the design = 14876<br>
 therefore, flop ratio = 1613/14876 = 0.108429<br>
 Therefore, the flop percentage = 10.84%
 
-After synthesis, we initiate floor planning using:
+After synthesis, we initiate floor planning using:<br>
 
-```bash
-run_floorplan
+   `run_floorplan`
 
 ![Captures 3_28_2024 4_28_11 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/2a842f62-a80f-4b13-b678-e730a8b44299)
