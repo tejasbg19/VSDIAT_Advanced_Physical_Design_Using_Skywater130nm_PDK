@@ -154,9 +154,9 @@ The order of timing and design parameters is as follows: `sky130A_sky130_fd_sc_h
 
 After opening OpenLane in interactive mode as shown above, we will begin the flow by creating various files needed using the command:
 
-           ```bash
-           package require openlane 0.9
-           prep -design picorv32a
+  ```bash
+  package require openlane 0.9
+  prep -design picorv32a
 
 If we list out the contents of picorv32a directory now we will see the new files created,
 
