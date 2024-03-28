@@ -180,6 +180,8 @@ flop ratio = number of D flip-flop ÷ total number of cells<br>
 <br>
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 1_17_45 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d2ab6c29-c54d-4449-aed8-ce9c6c1a1896)
 Total number of D flip-flop in the design = 1613 <br>
+<br>
+![New Issue · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_28_2024 1_18_51 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/e3ec3a0d-812d-4463-af47-c9b7781b8d4a)
 Total number of cells in the design = 14876<br>
 therefore, flop ratio = 1613/14876 = 0.108429<br>
 therefore, the flop percent = 10.84 %<br>
