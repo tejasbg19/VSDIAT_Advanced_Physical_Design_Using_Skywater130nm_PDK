@@ -145,5 +145,17 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
 
 
 When we open the picorv32a directory in terminal under designs directory of openlane directory, we will only see 3 files, 
--
+ -SRC (which contains verilog a file "picorv32a.v" & a sdc file that contains design constraints and timing assignments "picorv32a.sdc")
+ -sky130A_sky130_fd_sc_hd_config.tcl
+ -config.tcl
+order of timing and design parameters,sky130A_sky130_fd_sc_hd_config.tcl > config.tcl > OpenLane default values. 
+
+
+After opening the OpenLane in interactive mode as shown above, we will begin the flow by creating various files needed using the command
+```package require openlane 0.9   
+```prep -design picorv32a
+
+This will create a new directory named runs in picorv32a directory.
+
+
 
