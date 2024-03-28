@@ -207,23 +207,21 @@ Area of die in micrometer = (660685*671405)*10^(12) = 443587.21um
 #### Visualizing the floor plan using Magic:<br>
 Open floor plan result & then pass the result to magic using below commands:
 
-```bash
-cd Desktop/
-cd work/
-cd tools/
-cd openlane_working_dir/
-cd openlane/
-cd designs/
-cd picorv32a/
-cd runs/
-cd 28-03_06-26/
-cd results/
-cd floorplan
-magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+   ```bash
+   cd Desktop/
+   cd work/
+   cd tools/
+   cd openlane_working_dir/
+   cd openlane/
+   cd designs/
+   cd picorv32a/
+   cd runs/
+   cd 28-03_06-26/
+   cd results/
+   cd floorplan
+   magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read          
+   picorv32a.floorplan.def &
 
-
-
-exit
 
 
 
