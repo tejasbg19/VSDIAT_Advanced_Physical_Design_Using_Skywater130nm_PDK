@@ -175,7 +175,8 @@ openlane will run synthesis as well as Static Timing Analysis (STA) under the ab
 
 
 
-**Flop Ratio:** It is the ratio of total number of D Flip-Flops to the total number of cells in a design.
-Flop Ratio = (Number of D Flip-Flops) / (Total Number of Cells)
+**Flop Ratio:** It is the ratio of total number of D Flip-Flops to the total number of cells in a design.<br>
+flop ratio = number of D FF ÷ total number of cells
+
 
 
