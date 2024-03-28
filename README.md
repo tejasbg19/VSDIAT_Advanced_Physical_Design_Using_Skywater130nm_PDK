@@ -231,7 +231,7 @@ zommed view of the die (select the section you want to zoom by placing cursor on
 
 After floor planing we initiate placement using the below command in OpenLane:
       ```bash
-      run_placement
+         run_placement
 
 
 
