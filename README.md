@@ -117,6 +117,11 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
 
 3. Whatever work we will be doing, it will be in the openlane directory, to open it follow the below steps in terminal,
    ```bash
+   cd Desktop/
+   cd work/
+   cd tools/
+   cd openlane_working_dir/
+   cd openlane/
    
    
 
