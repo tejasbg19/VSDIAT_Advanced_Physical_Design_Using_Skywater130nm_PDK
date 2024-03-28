@@ -220,8 +220,7 @@ Open floor plan result & then pass the result to magic using below commands:
    cd results/
    cd floorplan
    magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read          
-   picorv32a.floorplan.def &
-
+   picorv32a.floorplan.def &```
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 5_01_06 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/831ce2c6-58e6-47f4-8761-0a965f43f960)
 
 
