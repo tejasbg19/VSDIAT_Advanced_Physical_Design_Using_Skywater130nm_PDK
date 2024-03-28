@@ -103,6 +103,8 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 10_31_20 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/572ba914-887d-4984-b2c5-a4393cd72091)
 
 
+
+
 2. To list all the PDKs:
    ```bash
    cd Desktop/
@@ -115,6 +117,8 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
 ![Screenshot 3_28_2024 10_47_16 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/f12a72e3-d2bb-4f92-a0a1-7d92d8d50185)
 
 
+
+
 3. Whatever work we will be doing, it will be in the openlane directory, to open it follow the below steps in terminal,
    ```bash
    cd Desktop/
@@ -122,6 +126,9 @@ To list the tools and PDKs we will be using, follow these steps in your terminal
    cd tools/
    cd openlane_working_dir/
    cd openlane/
+
+![Captures 3_28_2024 10_58_25 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/bec472e7-0a47-4fe3-bd8f-4e38b2a66915)
+
    
    
 
