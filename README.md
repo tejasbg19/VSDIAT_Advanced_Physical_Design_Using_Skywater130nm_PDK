@@ -290,3 +290,10 @@ To know about a layer, place your cursor on it and press `s` from your keyboard,
 
 
 To verify or know about the connectivity of a layer, place your cursor on the layer and press `s` twice or thrice, magic will highlight all the connections of the desired layer.
+
+Verifying the connectivity of output with the drain of PMOS & NMOS
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 8_21_43 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/cc969c7c-b5b6-4a55-8096-4cd87e5228f8)
+
+Verifying the connectivity of source of PMOS to Vdd
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 8_22_00 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/fe69c136-3cef-422c-8dc6-11a1f4b90988)
+
