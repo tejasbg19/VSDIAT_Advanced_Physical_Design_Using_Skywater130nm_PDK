@@ -281,3 +281,6 @@ now we can open the downloaded vsdstdcell inverter using magic tool,
       magic -T sky130A.tech sky130_inv.mag &
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 3_07_38 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/6a7dd1f6-8836-467b-a9a0-1660831de442)
 
+#### Verifying the different layers & connection of the inverter:
+
+To know about a layer, place your cursor on it and press `s` from your keyboard, which will select the layer/cell, now type `what` in `tkcon` window of magic, it will give the name of the layer. 
