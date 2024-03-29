@@ -300,3 +300,13 @@ Verifying the connectivity of source of PMOS to Vdd
 ###### DRC error in Magic
 
 Whenever a DRC error occurs, find the error by navigating to `DRC` in magic and clicking on `DRC Find next error`, the tkcon window will display what error we have & according to that design needs to be corrected.
+
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 9_42_54 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/14a473eb-bc9e-4f8a-8945-8e2b482b69d9)
+
+
+DRC error being highlighted
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 9_43_04 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/be0a4ec7-bf2c-4318-9a06-65f84de62235)
+
+
+`tkcon` window showing the error.
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 9_43_10 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/0a319b14-0fd8-4534-8ef5-c7733f261cda)
