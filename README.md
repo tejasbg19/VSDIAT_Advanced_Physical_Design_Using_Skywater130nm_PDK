@@ -265,6 +265,16 @@ Follow the following steps in terminal to clone the above mentioned repo into op
 
 
 We can verify weather the cloning was sucessful or not using `ls -ltr` to list the contents of openlane directory.
-Now we need to copy the magic tech files from pdks directory to our vsdstcelldesign directory to avoid giving the complete address of tech file every time we use `magic -T` command to view the layout.open `
-         ```bash
+Now we need to copy the magic tech files from pdks directory to our vsdstcelldesign directory to avoid giving the complete address of tech file every time we use `magic -T` command to view the layout, navigateto the magic tech files and follow the steps shown below,
+
+
+```bash
+cd /Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic
+cp sky130A.tech Home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
          
+         
+
+now we can open the downloaded vsdstdcell inverter using magic tool,
+```bash
+cd Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
+magic -T sky130A.tech sky130_inv.mag &
