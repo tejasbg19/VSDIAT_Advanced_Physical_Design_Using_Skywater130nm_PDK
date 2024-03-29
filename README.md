@@ -255,5 +255,14 @@ Zoomed view of the placement with `power(Vdd & Vss) mesh` clrealy visible as wel
 
 # Day-3
 
-## Importing vsdstdcell design from github & analyzing using Magic Layout:
+## Importing vsdstdcell design from GitHub & analyzing using Magic Layout:
+
+We need to clone the custom standard inverter repo [vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign).
+Follow the following steps in terminal to clone the above mentioned repo into openlane directory.
+   ```bash
+   cd Desktop/work/tools/openlane_working_dir/openlane
+   git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+
+We can verify weather the cloning was sucessful or not using `ls -ltr` to list the contents of openlane directory.
 
