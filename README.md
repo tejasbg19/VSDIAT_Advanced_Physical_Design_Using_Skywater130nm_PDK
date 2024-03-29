@@ -284,3 +284,9 @@ now we can open the downloaded vsdstdcell inverter using magic tool,
 #### Verifying the different layers & connection of the inverter:
 
 To know about a layer, place your cursor on it and press `s` from your keyboard, which will select the layer/cell, now type `what` in `tkcon` window of magic, it will give the name of the layer. 
+
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 8_01_57 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/e617479b-38a2-4f1e-aa2f-d0cfd52cc2ea)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 8_19_19 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/24eb9790-be42-444d-ad42-4d4c8809a4f7)
+
+
+To verify or know about the connectivity of a layer, place your cursor on the layer and press `s` twice or thrice, magic will highlight all the connections of the desired layer.
