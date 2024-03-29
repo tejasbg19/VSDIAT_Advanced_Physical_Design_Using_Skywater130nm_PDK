@@ -279,3 +279,5 @@ now we can open the downloaded vsdstdcell inverter using magic tool,
 
       cd Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
       magic -T sky130A.tech sky130_inv.mag &
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 3_07_38 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/6a7dd1f6-8836-467b-a9a0-1660831de442)
+
