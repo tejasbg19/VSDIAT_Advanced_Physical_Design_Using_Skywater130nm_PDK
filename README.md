@@ -297,7 +297,7 @@ Verifying the connectivity of output with the drain of PMOS & NMOS
 Verifying the connectivity of source of PMOS to Vdd
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 8_22_00 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/fe69c136-3cef-422c-8dc6-11a1f4b90988)
 
-###### DRC error in Magic
+### DRC error in Magic
 
 Whenever a DRC error occurs, find the error by navigating to `DRC` in magic and clicking on `DRC Find next error`, the tkcon window will display what error we have & according to that design needs to be corrected.
 
