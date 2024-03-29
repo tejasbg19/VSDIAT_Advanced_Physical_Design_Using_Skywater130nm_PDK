@@ -265,4 +265,6 @@ Follow the following steps in terminal to clone the above mentioned repo into op
 
 
 We can verify weather the cloning was sucessful or not using `ls -ltr` to list the contents of openlane directory.
-
+Now we need to copy the magic tech files from pdks directory to our vsdstcelldesign directory to avoid giving the complete address of tech file every time we use `magic -T` command to view the layout.open `
+         ```bash
+         
