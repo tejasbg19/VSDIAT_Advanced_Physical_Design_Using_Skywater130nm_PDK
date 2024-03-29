@@ -271,8 +271,9 @@ Now we need to copy the magic tech files from pdks directory to our vsdstcelldes
 
          cd /Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic
          cp sky130A.tech Home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_29_2024 1_43_30 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/1fcdb152-1de9-490b-befb-dd4ab91e858e)
          
-         
+<br> <br>         
 
 now we can open the downloaded vsdstdcell inverter using magic tool,
 
