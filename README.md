@@ -252,3 +252,8 @@ We can visualize the placement in Magic using the following in terminal in `plac
 Zoomed view of the placement with `power(Vdd & Vss) mesh` clrealy visible as well as `standard cells` placed in `standard cell row`.
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_28_2024 6_59_26 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/5576a078-442c-405a-81bd-326c2320ba98)
 
+
+# Day-3
+
+## Importing vsdstdcell design from github & analyzing using Magic Layout:
+
