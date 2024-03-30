@@ -383,6 +383,11 @@ Therefore, Rise transition time = (2.24684 - 2.18233)ns = 0.06451ns
 
 
 **Fall Transition:** The time taken by the output waveform to transit from a value of 80% of the maximum value to the 20 % of the maximum value.
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_44_16 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/42db019b-45d7-456d-a4ad-c25fa84b033e)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_43_55 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/3bc6033f-19f2-4335-85e6-6608deb44569)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_43_21 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/02d4c66f-a20b-4c88-b300-06dd36055676)
+
+Therefore the fall transition time = (4.09557 - 4.05304)ns = 0.04253ns 
 
 
 
