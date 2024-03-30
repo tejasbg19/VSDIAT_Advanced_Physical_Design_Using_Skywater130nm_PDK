@@ -316,3 +316,12 @@ DRC error being highlighted
 ### SPICE extraction of inverter
 
 To know in which which directory our tkcon window is opened used `pwd` command. Then use the command `extract all` command in tkcon window, this will create a new `.ext` in the same directory.
+
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_27_43 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/8e54c161-3ba3-453e-9a78-6b859fe3c6f9)
+
+
+Verifying weather `.ext` SPICE file has been created or not.
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_27_51 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c7e44a72-1454-4ffc-bf13-8d16ada01bc0)
+
+
+
