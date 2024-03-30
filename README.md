@@ -361,3 +361,6 @@ To plot the output,
 
 
       plot y vs time a 
+
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_48_13 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d2b0bb1f-250b-421c-8345-05a31317aed9)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_49_35 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/025bfaeb-fa58-4c3f-a70c-f0de7cb567de)
