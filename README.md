@@ -437,12 +437,12 @@ Firt open the `sky130A.tech` file in `viGMV` editor then add the rules that spec
 
     
      vi sky130A.tech
-     // to search a word in vi, use the / symbol and type the word & press enter
-     /poly.9 
-     //press i to enter into insert mode or to edit the text
-     //press :w and press enter to save the changes
-     //press :q to quit the editor
-     //press :wq to save & quit the editor
+
+to search a word in vi, use the / symbol and type the word & press enter `/poly.9`<br>
+press `i` to enter into insert mode or to edit the text<br>
+press `:w` and press enter to save the changes<br>
+press `:q` to quit the editor<br>
+press `:wq` to save & quit the editor
 
 Then add the new rules as shown below
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_11_28 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/fa4a1151-e118-45b6-95c0-bc93bf9d4670)
