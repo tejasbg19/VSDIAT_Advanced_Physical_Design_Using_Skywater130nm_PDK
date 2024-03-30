@@ -353,3 +353,11 @@ after editing, install the ngspice simulator & run the `.spice` file as shown be
       // password= vsdiat
       ngspice sky130_inv.spice
 
+The above code should give you below output
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_42_21 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/7c12b973-5d9d-4e65-90b2-5c69c882c08d)
+
+
+To plot the output, 
+
+
+      plot y vs time a 
