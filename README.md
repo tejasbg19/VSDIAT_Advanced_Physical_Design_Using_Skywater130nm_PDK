@@ -370,7 +370,15 @@ To plot the output,
 #### Characterization of the plot:
 **Rise Transition:** The time taken by the output waveform to transit from a value of 20% of the maximum value to the 80 % of the maximum value.
 
+Using right click, a new zoomed plot window cab be opened
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_07_22 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/b86c759b-166c-4617-811a-603cc5b49962)
 
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_08_25 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/f5f38019-1d2d-4509-9f9b-398eaba23784)
+
+
+ngspice will give the x & y coordinates of a point by just clicking on the points in plot.
+
+Therefore, Rise transition time = 2.18233 -
 
 
 
