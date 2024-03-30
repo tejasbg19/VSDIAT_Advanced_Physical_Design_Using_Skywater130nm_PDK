@@ -327,3 +327,8 @@ Verifying weather `.ext` SPICE file has been created or not.
 To open the SPICE file, use the command `less (file name)`
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_34_41 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c6e3931c-fb2b-4818-928a-171819e4922d)
 
+
+To get SPICE of `.spice` format, we use the following commands 
+      ```bash 
+      ext2spice cthresh 0 rthresh 0
+      ext2spice
