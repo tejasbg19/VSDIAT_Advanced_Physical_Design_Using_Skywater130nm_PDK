@@ -364,3 +364,12 @@ To plot the output,
 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_48_13 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d2b0bb1f-250b-421c-8345-05a31317aed9)
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_49_35 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/025bfaeb-fa58-4c3f-a70c-f0de7cb567de)
+
+
+### Task-3
+#### Characterization of the plot:
+**Rise Transition:** The time taken by the output waveform to transit from a value of 20% of the maximum value to the 80 % of the maximum value.
+**Fall Transition:** The time taken by the output waveform to transit from a value of 80% of the maximum value to the 20 % of the maximum value.
+**Fall Cell Delay:** Time taken by Output to fall to 50% - Time taken by Input to rise to 50%
+**Rise Cell Delay:** Time taken by Output to rise to 50% - Time taken by Input to fall to 50%
+
