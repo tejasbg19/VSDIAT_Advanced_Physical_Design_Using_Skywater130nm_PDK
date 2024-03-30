@@ -369,7 +369,13 @@ To plot the output,
 ### Task-3
 #### Characterization of the plot:
 **Rise Transition:** The time taken by the output waveform to transit from a value of 20% of the maximum value to the 80 % of the maximum value.
+
+
+
+
+
+
 **Fall Transition:** The time taken by the output waveform to transit from a value of 80% of the maximum value to the 20 % of the maximum value.
-**Fall Cell Delay:** Time taken by Output to fall to 50% - Time taken by Input to rise to 50%
-**Rise Cell Delay:** Time taken by Output to rise to 50% - Time taken by Input to fall to 50%
+**Fall Cell Delay:** It is the difference time taken by Output to fall to 50% & Time taken by Input to rise to 50%
+**Rise Cell Delay:** It is the diffrence time taken by Output to rise to 50% & Time taken by Input to fall to 50%
 
