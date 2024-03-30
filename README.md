@@ -425,3 +425,9 @@ We will download designs from [open circuits archive](http://opencircuitdesign.c
 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 3_36_22 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/dd8e73dd-6fc7-40ed-a261-b48a6046a0a3)
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 3_36_33 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/997df863-f060-4c5e-bb3a-b5f0fb86b581)
+
+
+#### DRC failure
+
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 5_55_13 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d74968d2-e373-4e22-82f3-5a24f8d4ffcd)
+As we can see in the above image even tough the height of the box or distance between poly is 21um, we are not getting a DRC error(incorrect poly.9), we need to rectify it. 
