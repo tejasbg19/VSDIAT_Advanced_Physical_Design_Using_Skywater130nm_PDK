@@ -324,4 +324,6 @@ Verifying weather `.ext` SPICE file has been created or not.
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_27_51 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c7e44a72-1454-4ffc-bf13-8d16ada01bc0)
 
 
+To open the SPICE file, use the command `less (file name)`
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_34_41 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c6e3931c-fb2b-4818-928a-171819e4922d)
 
