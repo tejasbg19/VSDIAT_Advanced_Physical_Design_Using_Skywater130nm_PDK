@@ -402,3 +402,8 @@ Therefor, Rise cell delay = (4.07805 - 4.05005)ns = 0.028ns
 **Fall Cell Delay/ Fall Propagation Delay:** It is the difference time taken by Output to fall to 50% & Time taken by Input to rise to 50%
 <br> similar to above we calculate the fall dealy
 
+
+### Task-4
+#### Identifying DRC errors in downloaded magic design & rectifying them:
+
+Here we will download some deigns which have DRC errors and correct them as per the rules in below link https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html
