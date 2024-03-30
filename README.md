@@ -406,4 +406,19 @@ Therefor, Rise cell delay = (4.07805 - 4.05005)ns = 0.028ns
 ### Task-4
 #### Identifying DRC errors in downloaded magic design & rectifying them:
 
-Here we will download some deigns which have DRC errors and correct them as per the rules in below link https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html
+Here we will download some deigns which have DRC errors and correct them as [the rules](https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html)
+<br><br>
+We will download designs from [open circuits archive](http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz) following the below steps,
+
+
+   
+      // we will download it in home directory
+      cd 
+      wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+      // to extract the compressed file
+      tar xfz drc_tests.tgz
+      cd drc_tests
+      // to list all the compnents of the folder
+      ls -al
+      // to open magic in better quality
+      magic -d XR &
