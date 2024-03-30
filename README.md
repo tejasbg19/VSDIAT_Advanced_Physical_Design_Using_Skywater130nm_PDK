@@ -432,12 +432,17 @@ We will download designs from [open circuits archive](http://opencircuitdesign.c
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 5_55_13 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d74968d2-e373-4e22-82f3-5a24f8d4ffcd)
 As we can see in the above image even tough the height of the box or distance between poly & polyresisitor is 21um, we are not getting a DRC error(incorrect poly.9), we need to rectify it.
 
-Firt open the `sky130A.tech` file in `viGMV` editor then add the rules that specify the distance between poly & polyresistor as below
+Firt open the `sky130A.tech` file in `viGMV` editor then add the rules that specify the distance between poly & polyresistor as below in inside drc_tests directory
    
 
     
-     // inside drc_tests directory
      vi sky130A.tech
+     // to search a word in vi, use the / symbol and type the word & press enter
+     /poly.9 
+     //press i to enter into insert mode or to edit the text
+     //press :w and press enter to save the changes
+     //press :q to quit the editor
+     //press :wq to save & quit the editor
 
 Then add the new rules as shown below
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_11_28 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/fa4a1151-e118-45b6-95c0-bc93bf9d4670)
