@@ -444,11 +444,14 @@ Then add the new rules as shown below
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_13_40 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/04d321d0-d7c1-41b1-87c2-adae5634016e)
 
 
+
 Then to load the newly edited tech file into magic use the below code in `tkcon` window of magic,
       
       
      
       tech load sky130A.tech
       drc check
+
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_18_48 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d905d0dd-6200-48d2-ac5a-5cdb475b3b6e)
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_21_03 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/7b0533ee-9324-4428-9f3b-1f2f173c22c3)
+As we can see magic is identifying the DRC violations.
