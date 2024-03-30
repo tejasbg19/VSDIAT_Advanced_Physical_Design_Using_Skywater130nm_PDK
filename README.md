@@ -334,3 +334,9 @@ To get SPICE of `.spice` format, we use the following commands
 To open the SPICE file, use the command `less (file name)`
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_34_41 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c6e3931c-fb2b-4818-928a-171819e4922d)
 
+
+To measure the size of unit grid box in magic, select one grid box & use the command `box` in `tkcon` window, whose output will look like the below image
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_54_46 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/22e8c79f-d856-45f9-a766-19e26a5cbdf8)
+
+
+
