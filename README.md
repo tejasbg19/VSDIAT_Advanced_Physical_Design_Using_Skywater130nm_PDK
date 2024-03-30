@@ -382,6 +382,7 @@ ngspice will give the x & y coordinates of a point by just clicking on the point
 Therefore, Rise transition time = (2.24684 - 2.18233)ns = 0.06451ns 
 
 
+
 **Fall Transition:** The time taken by the output waveform to transit from a value of 80% of the maximum value to the 20 % of the maximum value.
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_44_16 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/42db019b-45d7-456d-a4ad-c25fa84b033e)
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_43_55 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/3bc6033f-19f2-4335-85e6-6608deb44569)
@@ -391,6 +392,13 @@ Therefore the fall transition time = (4.09557 - 4.05304)ns = 0.04253ns
 
 
 
-**Fall Cell Delay:** It is the difference time taken by Output to fall to 50% & Time taken by Input to rise to 50%
-**Rise Cell Delay:** It is the diffrence time taken by Output to rise to 50% & Time taken by Input to fall to 50%
+
+**Rise Cell Delay /Rise Propagation Delay:** It is the diffrence time taken by Output to rise to 50% & Time taken by Input to fall to 50%
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_55_23 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/98f90509-f61c-4bd9-87ed-7120aee8abeb)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_55_43 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/99fef724-adb7-4cb8-8ff4-eab3a4e961f9)
+Therefor, Rise cell delay = (4.07805 - 4.05005)ns = 0.028ns
+
+
+**Fall Cell Delay/ Fall Propagation Delay:** It is the difference time taken by Output to fall to 50% & Time taken by Input to rise to 50%
+<br> similar to above we calculate the fall dealy
 
