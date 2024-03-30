@@ -320,12 +320,9 @@ To know in which which directory our tkcon window is opened used `pwd` command. 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_27_43 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/8e54c161-3ba3-453e-9a78-6b859fe3c6f9)
 
 
-Verifying weather `.ext` SPICE file has been created or not.
+Verifying weather `.ext` file has been created or not.
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_27_51 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c7e44a72-1454-4ffc-bf13-8d16ada01bc0)
 
-
-To open the SPICE file, use the command `less (file name)`
-![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_34_41 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c6e3931c-fb2b-4818-928a-171819e4922d)
 
 
 To get SPICE of `.spice` format, we use the following commands 
@@ -333,3 +330,7 @@ To get SPICE of `.spice` format, we use the following commands
 
       ext2spice cthresh 0 rthresh 0
       ext2spice
+
+To open the SPICE file, use the command `less (file name)`
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_34_41 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c6e3931c-fb2b-4818-928a-171819e4922d)
+
