@@ -451,7 +451,10 @@ Then to load the newly edited tech file into magic use the below code in `tkcon`
      
       tech load sky130A.tech
       drc check
+      // to know about the error use
+      drc why 
 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_18_48 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d905d0dd-6200-48d2-ac5a-5cdb475b3b6e)
-![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_21_03 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/7b0533ee-9324-4428-9f3b-1f2f173c22c3)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_31_39 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/4126c229-6e25-4f6b-b2df-caec801f09cf)
+
 As we can see magic is identifying the DRC violations.
