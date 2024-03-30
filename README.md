@@ -427,7 +427,28 @@ We will download designs from [open circuits archive](http://opencircuitdesign.c
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 3_36_33 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/997df863-f060-4c5e-bb3a-b5f0fb86b581)
 
 
-#### DRC failure
+#### DRC failure to identify poly to polyresistor distance violation
 
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 5_55_13 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d74968d2-e373-4e22-82f3-5a24f8d4ffcd)
-As we can see in the above image even tough the height of the box or distance between poly is 21um, we are not getting a DRC error(incorrect poly.9), we need to rectify it. 
+As we can see in the above image even tough the height of the box or distance between poly & polyresisitor is 21um, we are not getting a DRC error(incorrect poly.9), we need to rectify it.
+
+Firt open the `sky130A.tech` file in `viGMV` editor then add the rules that specify the distance between poly & polyresistor as below
+   
+
+    
+     // inside drc_tests directory
+     vi sky130A.tech
+
+Then add the new rules as shown below
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_11_28 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/fa4a1151-e118-45b6-95c0-bc93bf9d4670)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_13_40 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/04d321d0-d7c1-41b1-87c2-adae5634016e)
+
+
+Then to load the newly edited tech file into magic use the below code in `tkcon` window of magic,
+      
+      
+     
+      tech load sky130A.tech
+      drc check
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_18_48 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d905d0dd-6200-48d2-ac5a-5cdb475b3b6e)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 8_21_03 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/7b0533ee-9324-4428-9f3b-1f2f173c22c3)
