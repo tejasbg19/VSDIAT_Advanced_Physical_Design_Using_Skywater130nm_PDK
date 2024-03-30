@@ -339,4 +339,17 @@ To measure the size of unit grid box in magic, select one grid box & use the com
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 10_54_46 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/22e8c79f-d856-45f9-a766-19e26a5cbdf8)
 
 
+### Editing the SPICE file
+
+`.spice` is edited as shown below in txt editor
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_40_28 AM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c82377c4-4358-4517-9c74-b2cf8deb3b94)
+
+
+after editing, install the ngspice simulator & run the `.spice` file as shown below
+    
+      
+
+      sudo apt install ngspice 
+      // password= vsdiat
+      ngspice sky130_inv.spice
 
