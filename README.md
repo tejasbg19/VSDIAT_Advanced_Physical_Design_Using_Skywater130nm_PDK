@@ -377,13 +377,15 @@ Using right click, a new zoomed plot window cab be opened
 
 
 ngspice will give the x & y coordinates of a point by just clicking on the points in plot.
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 12_22_30 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/b553a03c-deb5-4485-9830-cd9d89d3c804)
 
-Therefore, Rise transition time = 2.18233 -
-
-
+Therefore, Rise transition time = (2.24684 - 2.18233)ns = 0.06451ns 
 
 
 **Fall Transition:** The time taken by the output waveform to transit from a value of 80% of the maximum value to the 20 % of the maximum value.
+
+
+
 **Fall Cell Delay:** It is the difference time taken by Output to fall to 50% & Time taken by Input to rise to 50%
 **Rise Cell Delay:** It is the diffrence time taken by Output to rise to 50% & Time taken by Input to fall to 50%
 
