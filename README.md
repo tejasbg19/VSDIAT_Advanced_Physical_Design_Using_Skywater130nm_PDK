@@ -329,6 +329,7 @@ To open the SPICE file, use the command `less (file name)`
 
 
 To get SPICE of `.spice` format, we use the following commands 
-      ```bash 
+
+
       ext2spice cthresh 0 rthresh 0
       ext2spice
