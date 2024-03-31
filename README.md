@@ -505,6 +505,9 @@ also the hiegt of layout is = 2.72um = 8 * 0.34
 
 Hence our this design can be used for `lef` extraction.
 
-Now save the above layout with your name, using the command `save filename.mag` in `tkcon` window. Then open the thus saved layout as we did before.
+Now save the above layout with your name, using the command `save filename.mag` in `tkcon` window. Then open the thus saved layout as we did before. <br>
+In the new file you opened, use the command `lef write` to extract `lef` details
+![Screenshot 3_31_2024 4_20_19 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/4831f292-2c35-422f-9e05-0c7696ddf570)
+
 
 
