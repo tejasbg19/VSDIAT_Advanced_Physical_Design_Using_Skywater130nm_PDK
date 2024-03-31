@@ -605,8 +605,11 @@ After completion of floorplan, we will run placement using `run_placement` comma
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 6_08_02 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/5d295273-6cc7-4cd0-9c18-a13b8dad50b4)
 
 
-As we know, we can visualize the floorplane & placement by loading the thus generated file into magic, follow the below steps to do so,
+As we know, we can visualize the floorplane & placement by loading the thus generated file into magic which will be saved in results directory, follow the below steps to do so,
 
 
-          ```bash
           
+          cd /Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/31-03_12-10/results/placement
+          // now to pass both tech files and def files to magic
+          magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+
