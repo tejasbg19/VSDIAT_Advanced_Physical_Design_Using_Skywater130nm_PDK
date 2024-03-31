@@ -602,3 +602,11 @@ We are facing an error, which cannot be debugged, we will try to run floorplanin
 
 
 After completion of floorplan, we will run placement using `run_placement` command.
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 6_08_02 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/5d295273-6cc7-4cd0-9c18-a13b8dad50b4)
+
+
+As we know, we can visualize the floorplane & placement by loading the thus generated file into magic, follow the below steps to do so,
+
+
+          ```bash
+          
