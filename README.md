@@ -478,5 +478,9 @@ As we can see magic is identifying the DRC violations.
 To verify if our layout has satifies above conditions, let us chect condition 1, 
 
 
-      ```bash
+   
+      cd /Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/
+      less tracks.info
+
+      
       
