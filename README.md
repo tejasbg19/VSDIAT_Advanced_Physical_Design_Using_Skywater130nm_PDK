@@ -463,3 +463,20 @@ Then to load the newly edited tech file into magic use the below code in `tkcon`
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_30_2024 11_31_39 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/4126c229-6e25-4f6b-b2df-caec801f09cf)
 
 As we can see magic is identifying the DRC violations.
+
+
+# Day-4
+
+## Extraction of LEF of a stdcell from Magic Layout:
+
+### Guidlines to be followed to do a correct extraction:
+
+1. The input and output must lie on the intersection of horizontal & vertical tracks
+2. The width of stdcell should be odd multiple of horizontal track pitch
+3. The height of stdcell should be odd multiple of vertical track pitch
+
+To verify if our layout has satifies above conditions, let us chect condition 1, 
+
+
+      ```bash
+      
