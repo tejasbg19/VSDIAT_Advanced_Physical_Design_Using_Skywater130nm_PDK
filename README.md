@@ -542,17 +542,21 @@ Now we will edit `config.tcl` of our picorv32a so that it fetches our new lef fi
 Now we will run the Openlane once gain with our newly inserted cell,
 use the follwoing commands
 
-  ```bash
-  cd Desktop/work/tools/openlane_working_dir/openlane
-  docker
-  // in openlane window, to make our flow interactive
-  ./flow.tcl -interactive
-  package require openlane 0.9
-  prep -design picorv32a
-  // after the above step, to include our new lef file
-  set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
-  add_lefs -src $lefs
-  // to run synthesis
-  run_synthesis
-   
+         
+           cd Desktop/work/tools/openlane_working_dir/openlane
+           docker
+           // in openlane window, to make our flow interactive
+           ./flow.tcl -interactive
+           package require openlane 0.9
+           prep -design picorv32a
+           // after the above step, to include our new lef file
+           set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+           add_lefs -src $lefs
+           // to run synthesis
+           run_synthesis
+
+
+![Screenshot 3_31_2024 5_42_28 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/62ed96e4-46b2-4786-bbe4-a608e4d3c617)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 5_42_42 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/17454d37-5765-412f-84d1-aba8f7cf96d6)
+
 
