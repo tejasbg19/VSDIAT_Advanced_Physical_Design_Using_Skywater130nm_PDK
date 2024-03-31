@@ -516,4 +516,10 @@ Content of the newly extracted lef file
 ![VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK_README md at main · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_31_2024 4_24_55 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/3ec9c34d-7aa1-4b85-a71e-bcb315f96e23)
 
 
+Now we will incorporate our lef file into the picorvv32a, to that first we need to copy the lef from cureent directory to picorv32a directory as shown below
+     
+      cp sky130_invtejas.lef ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/
+      cp libs/sky130_fd_sc_hd__* ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/
+      // to check weather both thigs have been copied, use 
+      ls -ltr 
 
