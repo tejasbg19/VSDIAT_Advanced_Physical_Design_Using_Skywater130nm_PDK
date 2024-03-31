@@ -560,3 +560,37 @@ use the follwoing commands
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 5_42_42 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/17454d37-5765-412f-84d1-aba8f7cf96d6)
 
 
+As we can see in the below image, we hve negative parameter and timing delay, which is error
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 5_47_28 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/924e6375-72f2-49d3-98cf-39895c5cba7a)
+
+
+To rectify this we need to add our new lef file in merge.lef
+
+
+
+            prep -design picorv32a -tag 24-03_10-03 -overwrite
+            set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+            add_lefs -src $lefs
+            echo $::env(SYNTH_STRATEGY)
+            set ::env(SYNTH_STRATEGY) "DELAY 3"
+            echo $::env(SYNTH_BUFFERING)
+            echo $::env(SYNTH_SIZING)
+            set ::env(SYNTH_SIZING) 1
+            echo $::env(SYNTH_DRIVING_CELL)
+            run_synthesis
+
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 5_54_15 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/d57c86e9-683b-41b2-96fa-0b6c4ee727cf)
+
+
+As we can see, even tough the area has increased, we have no negative paramenters after running synthesis.
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 5_57_33 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/5131515b-04b8-4969-999e-6fbc251a8abd)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 5_57_45 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/0701723e-ea80-42af-982a-13ea6b1f28db)
+
+As our synthesis is complete, we will check weather our custom inverter stddcell will be accepted in PnR by running floorplan using the command `run_floor_plan`
+![Captures 3_31_2024 6_00_36 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/796e52f1-c173-478f-95e6-a7e6f786b3cf)
+We are facing an error, which cannot be debugged, we will try to run floorplaning using a aliase commands listed in `OpenLANE_commands.md`, which can be accessed in the directory 
+`cd Desktop/work/tools/openlane_working_dir/openlane/docs/source/OpenLANE_commands.md`
+
+
+
+
