@@ -496,5 +496,8 @@ Now we will change our grid values to xpitch & ypitch values to see weather our 
 
 ![CapturesTejas](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/dafd88de-03b9-40c8-8b5a-36b3f8106b36)
 ![vsdworkshop  Running  - Oracle VM VirtualBox Tejas](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/f86dc569-a5b1-4e30-88fb-a293407fe921)
-As we can see from above image the horizontal _& vertical track pitch intersects at i/o regions, so our design is eligible for `LEF` extraction.
+As we can see from above image the horizontal _& vertical track pitch intersects at i/o regions, so our design satisifies condition 1 for `LEF` extraction.
+
+
+
 
