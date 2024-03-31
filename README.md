@@ -512,5 +512,8 @@ In the new file you opened, use the command `lef write` to extract `lef` details
 We can see the extracted lef file usig `ls -ltr` in the directory in which you have saved your layout design
 ![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 4_22_45 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/e15af6d0-ad3d-4726-b419-d4c3f7120867)
 
+Content of the newly extracted lef file
+![VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK_README md at main · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_31_2024 4_24_55 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/3ec9c34d-7aa1-4b85-a71e-bcb315f96e23)
+
 
 
