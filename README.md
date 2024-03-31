@@ -613,3 +613,4 @@ As we know, we can visualize the floorplane & placement by loading the thus gene
           // now to pass both tech files and def files to magic
           magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 
+
