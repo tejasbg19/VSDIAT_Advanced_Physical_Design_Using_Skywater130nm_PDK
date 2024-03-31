@@ -592,5 +592,8 @@ We are facing an error, which cannot be debugged, we will try to run floorplanin
 `cd Desktop/work/tools/openlane_working_dir/openlane/docs/source/OpenLANE_commands.md`
 
 
+            init_floorplan
+            place_io
+            tap_decap_or
 
 
