@@ -499,5 +499,12 @@ Now we will change our grid values to xpitch & ypitch values to see weather our 
 As we can see from above image the horizontal _& vertical track pitch intersects at i/o regions, so our design satisifies condition 1 for `LEF` extraction.
 
 
+![VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK_README md at main · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_31_2024 4_10_47 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/6f59d9f0-ef9f-46fd-9a34-055e03984c72)
+As we can see from above image, the width of layout is = 1.38um = 30*0.46 (odd multiple of xpitch) <br>
+also the hiegt of layout is = 2.72um = 8 * 0.34
+
+Hence our this design can be used for `lef` extraction.
+
+Now save the above layout with your name, using the command `save filename.mag` in `tkcon` window. Then open the thus saved layout as we did before.
 
 
