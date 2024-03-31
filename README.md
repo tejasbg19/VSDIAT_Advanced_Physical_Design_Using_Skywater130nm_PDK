@@ -596,4 +596,9 @@ We are facing an error, which cannot be debugged, we will try to run floorplanin
             place_io
             tap_decap_or
 
+![Editing VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK_README md at main · tejasbg19_VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK - Google Chrome 3_31_2024 6_05_20 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/42bc3c03-68d2-4007-9f86-600fb31d8c7e)
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 6_05_24 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/ec573ca8-29c3-4b65-a03e-3bb4cd57cf7e)
 
+
+
+After completion of floorplan, we will run placement using `run_placement` command.
