@@ -482,6 +482,15 @@ To verify if our layout has satifies above conditions, let us chect condition 1,
       cd /Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/
       less tracks.info
 
+The tracks info will look as below, it will be in formante `x_axis_offset  xpitch` & ``y_axis_offset  ypitch`
+![vsdworkshop  Running  - Oracle VM VirtualBox Tejas B G](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/a4fb40ff-052b-41e2-8ee7-a8c5a73e0a9f)
 
-      
+Now we will change our grid values to xpitch & ypitch values to see weather our i/o lies on horizontal & vertical intersection. Follow the below commands in `tkcon` window,
+
+
+      ```bash
+      //to see in what formate we should give vaulue to grid
+      grid help
+      // passing the values
+      grid 
       
