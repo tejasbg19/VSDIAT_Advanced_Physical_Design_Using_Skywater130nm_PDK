@@ -523,3 +523,7 @@ Now we will incorporate our lef file into the picorvv32a, to that first we need 
       // to check weather both thigs have been copied, use 
       ls -ltr 
 
+We can see all the needed files are transefrred
+![vsdworkshop  Running  - Oracle VM VirtualBox 3_31_2024 5_20_30 PM](https://github.com/tejasbg19/VSDIAT_Advanced_Physical_Design_Using_Skywater130nm_PDK/assets/163899793/c6b135eb-1816-45fa-935b-eb363a12fe97)
+
+
