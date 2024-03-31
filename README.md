@@ -542,7 +542,7 @@ Now we will edit `config.tcl` of our picorv32a so that it fetches our new lef fi
 Now we will run the Openlane once gain with our newly inserted cell,
 use the follwoing commands
 
- 
+  ```bash
   cd Desktop/work/tools/openlane_working_dir/openlane
   docker
   // in openlane window, to make our flow interactive
